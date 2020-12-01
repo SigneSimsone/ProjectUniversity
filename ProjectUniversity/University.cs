@@ -11,7 +11,7 @@ namespace ProjectUniversity
 
         public University()
         {
-            CourseList = new List<Course>();
+            CourseList = new List<Course>(); //Course List
             RoomList = new List<Room>();
         }
     }
