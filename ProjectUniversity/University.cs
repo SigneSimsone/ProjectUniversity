@@ -14,5 +14,15 @@ namespace ProjectUniversity
             CourseList = new List<Course>();
             RoomList = new List<Room>();
         }
+
+        public void AddRoom(Room room)
+        {
+            RoomList.Add(room);
+        }
+
+        public void AddCourse(Course course)
+        {
+            CourseList.Add(course);
+        }
     }
 }

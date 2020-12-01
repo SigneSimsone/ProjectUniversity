@@ -20,5 +20,10 @@ namespace ProjectUniversity
             CourseTeacher = courseTeacher;
             StudentList = new List<Student>();
         }
+
+        public void AddStudent(Student student)
+        {
+            StudentList.Add(student);
+        }
     }
 }
