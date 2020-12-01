@@ -9,5 +9,12 @@ namespace ProjectUniversity
         string Name;
         string Surname;
         double Salary;
+
+        public Teacher(string name, string surname, double salary)
+        {
+            Name = name;
+            Surname = surname;
+            Salary = salary;
+        }
     }
 }

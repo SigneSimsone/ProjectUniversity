@@ -6,9 +6,17 @@ namespace ProjectUniversity
 {
     class Student
     {
-        string Name; //Student name
+        string Name;
         string Surname;
         int Age;
         string CurrentLevel;
+
+        public Student(string name, string surname, int age, string currentLevel)
+        {
+            Name = name;
+            Surname = surname;
+            Age = age;
+            CurrentLevel = currentLevel;
+        }
     }
 }

@@ -9,5 +9,12 @@ namespace ProjectUniversity
         string Name;
         int MaxCapacity;
         string Faculty;
+        
+        public Room(string name, int maxCapacity, string faculty)
+        {
+            Name = name;
+            MaxCapacity = maxCapacity;
+            Faculty = faculty;
+        }
     }
 }
