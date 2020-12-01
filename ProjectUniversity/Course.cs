@@ -12,10 +12,12 @@ namespace ProjectUniversity
         Teacher CourseTeacher;
         List<Student> StudentList;
 
-        public Course()
+        public Course(string courseName, int maxStudentCount, Room courseRoom, Teacher courseTeacher)
         {
-            CourseRoom = new Room();
-            CourseTeacher = new Teacher();
+            CourseName = courseName;
+            MaxStudentCount = maxStudentCount;
+            CourseRoom = courseRoom;
+            CourseTeacher = courseTeacher;
             StudentList = new List<Student>();
         }
     }
