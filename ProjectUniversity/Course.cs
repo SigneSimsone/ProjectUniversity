@@ -8,16 +8,16 @@ namespace ProjectUniversity
     {
         string CourseName;
         int MaxStudentCount;
-        string CourseRoom;
-        string CourseTeacher;
+        Room CourseRoom;
+        Teacher CourseTeacher;
         List<Student> StudentList;
 
-        public Course(string courseName, int maxStudentCount, string room, string teacher)
+        public Course(string courseName, int maxStudentCount, Room courseRoom, Teacher courseTeacher)
         {
             CourseName = courseName;
             MaxStudentCount = maxStudentCount;
-            CourseRoom = room;
-            CourseTeacher = teacher;
+            CourseRoom = courseRoom;
+            CourseTeacher = courseTeacher;
             StudentList = new List<Student>();
         }
     }
