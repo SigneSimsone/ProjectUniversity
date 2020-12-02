@@ -16,5 +16,6 @@ namespace ProjectUniversity
             MaxCapacity = maxCapacity;
             Faculty = faculty;
         }
+
     }
 }
