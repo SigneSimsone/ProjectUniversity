@@ -35,30 +35,30 @@ namespace ProjectUniversity
             Student RachelEdwards = new Student("Rachel", "Edwards", 28, "PhD");
             Student JadeGreen = new Student("Jade", "Green", 23, "Masters");
 
-            MathCourse.AddStudent(TariMussman);
-            EnglishCourse.AddStudent(TariMussman);
-            MathCourse.AddStudent(MaxJeanlouis);
-            CriminologyCourse.AddStudent(MaxJeanlouis);
-            EnglishCourse.AddStudent(AnnaleeBrotzman);
-            ActingCourse.AddStudent(AnnaleeBrotzman);
-            StoicismCourse.AddStudent(AnnaleeBrotzman);
-            MathCourse.AddStudent(GusHalberg);
-            ActingCourse.AddStudent(GusHalberg);
-            CriminologyCourse.AddStudent(LesiaDerry);
-            StoicismCourse.AddStudent(LesiaDerry);
-            EnglishCourse.AddStudent(LesiaDerry);
-            MathCourse.AddStudent(EffiePitkin);
-            StoicismCourse.AddStudent(EffiePitkin);
-            MathCourse.AddStudent(RalphMorita);
-            EnglishCourse.AddStudent(RalphMorita);
-            MathCourse.AddStudent(NickyTabler);
-            CriminologyCourse.AddStudent(NickyTabler);
-            ActingCourse.AddStudent(RachelEdwards);
-            StoicismCourse.AddStudent(RachelEdwards);
-            CriminologyCourse.AddStudent(RachelEdwards);
-            ActingCourse.AddStudent(JadeGreen);
-            StoicismCourse.AddStudent(JadeGreen);
-            EnglishCourse.AddStudent(JadeGreen);
+            MathCourse.AddStudentToCourse(TariMussman);
+            EnglishCourse.AddStudentToCourse(TariMussman);
+            MathCourse.AddStudentToCourse(MaxJeanlouis);
+            CriminologyCourse.AddStudentToCourse(MaxJeanlouis);
+            EnglishCourse.AddStudentToCourse(AnnaleeBrotzman);
+            ActingCourse.AddStudentToCourse(AnnaleeBrotzman);
+            StoicismCourse.AddStudentToCourse(AnnaleeBrotzman);
+            MathCourse.AddStudentToCourse(GusHalberg);
+            ActingCourse.AddStudentToCourse(GusHalberg);
+            CriminologyCourse.AddStudentToCourse(LesiaDerry);
+            StoicismCourse.AddStudentToCourse(LesiaDerry);
+            EnglishCourse.AddStudentToCourse(LesiaDerry);
+            MathCourse.AddStudentToCourse(EffiePitkin);
+            StoicismCourse.AddStudentToCourse(EffiePitkin);
+            MathCourse.AddStudentToCourse(RalphMorita);
+            EnglishCourse.AddStudentToCourse(RalphMorita);
+            MathCourse.AddStudentToCourse(NickyTabler);
+            CriminologyCourse.AddStudentToCourse(NickyTabler);
+            ActingCourse.AddStudentToCourse(RachelEdwards);
+            StoicismCourse.AddStudentToCourse(RachelEdwards);
+            CriminologyCourse.AddStudentToCourse(RachelEdwards);
+            ActingCourse.AddStudentToCourse(JadeGreen);
+            StoicismCourse.AddStudentToCourse(JadeGreen);
+            EnglishCourse.AddStudentToCourse(JadeGreen);
 
             university.AddCourse(MathCourse);
             university.AddCourse(EnglishCourse);
@@ -71,6 +71,8 @@ namespace ProjectUniversity
             university.AddRoom(room307);
             university.AddRoom(room318);
             university.AddRoom(room337);
+
+            //university.RemoveStudentFromUniversity(TariMussman);
         }
     }
 }

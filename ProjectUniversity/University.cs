@@ -8,7 +8,7 @@ namespace ProjectUniversity
     {
         List<Course> CourseList;
         List<Room> RoomList;
-
+       
         public University()
         {
             CourseList = new List<Course>();
@@ -23,6 +23,11 @@ namespace ProjectUniversity
         public void AddCourse(Course course)
         {
             CourseList.Add(course);
+        }
+
+        public void RemoveStudentFromUniversity(Student student)
+        {
+            
         }
     }
 }

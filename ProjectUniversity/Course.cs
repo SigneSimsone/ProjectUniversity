@@ -21,9 +21,22 @@ namespace ProjectUniversity
             StudentList = new List<Student>();
         }
 
-        public void AddStudent(Student student)
+        public void AddStudentToCourse(Student student)
         {
             StudentList.Add(student);
         }
+        public void RemoveStudentFromCourse(Student student)
+        {
+            StudentList.Remove(student);
+        }
+        public void ChangeCourseTeacher(Teacher anotherTeacher)
+        {
+            CourseTeacher = anotherTeacher;
+        }
+        public void ChangeCourseRoom(Room anotherRoom)
+        {
+            CourseRoom = anotherRoom;
+        }
+
     }
 }
