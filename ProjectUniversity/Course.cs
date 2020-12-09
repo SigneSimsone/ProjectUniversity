@@ -37,6 +37,16 @@ namespace ProjectUniversity
         {
             CourseRoom = anotherRoom;
         }
-
+        public bool AccessStudentList(Student student)
+        {
+            for (int i = 0; i < StudentList.Count; i++)
+            {
+                if (StudentList[i] == student)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }

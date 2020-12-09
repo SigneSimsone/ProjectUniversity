@@ -27,7 +27,13 @@ namespace ProjectUniversity
 
         public void RemoveStudentFromUniversity(Student student)
         {
-            
+            for (int i = 0; i < CourseList.Count; i++)
+            {
+                if (CourseList[i].AccessStudentList(student) == true)
+                {
+                    CourseList[i].RemoveStudentFromCourse(student);
+                }
+            }
         }
     }
 }
