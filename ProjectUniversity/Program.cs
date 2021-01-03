@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace ProjectUniversity
 {
@@ -72,7 +73,38 @@ namespace ProjectUniversity
             university.AddRoom(room318);
             university.AddRoom(room337);
 
-            //university.RemoveStudentFromUniversity(TariMussman);
+            WriteToFile(university);
+        }
+
+        static void WriteToFile(University university)
+        {
+            string filePath = @"C:\Users\signe\source\repos\ProjectUniversity\Courses.txt";
+            StreamWriter writer = new StreamWriter(filePath);
+
+            for (int i = 0; i < university.CourseList.Count; i++)
+            {
+                string courseName = university.CourseList[i].courseName;
+                writer.WriteLine($"Course Name: {courseName}");
+
+                string courseTeacher = university.CourseList[i].courseTeacher;
+                writer.WriteLine($"Teacher: {courseTeacher}");
+                
+                string courseRoom = university.RoomList[i].courseRoom;
+                writer.WriteLine($"Room: {courseRoom}");
+
+                string courseFaculty = university.RoomList[i].courseFaculty;
+                writer.WriteLine($"Faculty: {courseFaculty}");
+                
+                writer.WriteLine($"Students:");
+                for (int j = 0; j < university.CourseList[i].StudentList.Count; j++)
+                {
+                    writer.WriteLine($"* {university.CourseList[i].StudentList[j].studentFullName}");
+                }
+
+                writer.WriteLine("\n---\n");
+            }
+
+            writer.Close();
         }
     }
 }

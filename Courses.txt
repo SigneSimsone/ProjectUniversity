@@ -1,0 +1,64 @@
+Course Name: Math
+Teacher: Peter Thomson
+Room: 105
+Faculty: Math & Physics
+Students:
+* Tari Mussman
+* Max Jeanlouis
+* Gus Halberg
+* Effie Pitkin
+* Ralph Morita
+* Nicky Tabler
+
+---
+
+Course Name: English
+Teacher: Jacky Grayson
+Room: 206
+Faculty: Literature & Languages
+Students:
+* Tari Mussman
+* Annalee Brotzman
+* Lesia Derry
+* Ralph Morita
+* Jade Green
+
+---
+
+Course Name: Acting
+Teacher: Emma Jones
+Room: 307
+Faculty: Arts
+Students:
+* Annalee Brotzman
+* Gus Halberg
+* Rachel Edwards
+* Jade Green
+
+---
+
+Course Name: Criminology
+Teacher: Jacky Grayson
+Room: 318
+Faculty: Law
+Students:
+* Max Jeanlouis
+* Lesia Derry
+* Nicky Tabler
+* Rachel Edwards
+
+---
+
+Course Name: Stoicism
+Teacher: Emma Jones
+Room: 337
+Faculty: Philosophy
+Students:
+* Annalee Brotzman
+* Lesia Derry
+* Effie Pitkin
+* Rachel Edwards
+* Jade Green
+
+---
+
