@@ -17,5 +17,7 @@ namespace ProjectUniversity
             Faculty = faculty;
         }
 
+        public string courseFaculty => $"{Faculty}";
+        public string courseRoom => $"{Name}";
     }
 }

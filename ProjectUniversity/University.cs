@@ -6,8 +6,8 @@ namespace ProjectUniversity
 {
     class University
     {
-        List<Course> CourseList;
-        List<Room> RoomList;
+        public List<Course> CourseList;
+        public List<Room> RoomList;
        
         public University()
         {

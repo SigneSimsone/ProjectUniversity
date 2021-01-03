@@ -16,5 +16,7 @@ namespace ProjectUniversity
             Surname = surname;
             Salary = salary;
         }
+
+        public string teacherFullName => $"{Name} {Surname}";
     }
 }

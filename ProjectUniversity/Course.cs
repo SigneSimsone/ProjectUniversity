@@ -10,7 +10,7 @@ namespace ProjectUniversity
         int MaxStudentCount;
         Room CourseRoom;
         Teacher CourseTeacher;
-        List<Student> StudentList;
+        public List<Student> StudentList;
 
         public Course(string courseName, int maxStudentCount, Room courseRoom, Teacher courseTeacher)
         {
@@ -20,6 +20,9 @@ namespace ProjectUniversity
             CourseTeacher = courseTeacher;
             StudentList = new List<Student>();
         }
+
+        public string courseName => $"{CourseName}";
+        public string courseTeacher => $"{CourseTeacher.teacherFullName}";
 
         public void AddStudentToCourse(Student student)
         {

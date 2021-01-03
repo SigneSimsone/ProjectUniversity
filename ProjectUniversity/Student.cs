@@ -18,5 +18,7 @@ namespace ProjectUniversity
             Age = age;
             CurrentLevel = currentLevel;
         }
+
+        public string studentFullName => $"{Name} {Surname}";
     }
 }
